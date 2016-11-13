@@ -1,6 +1,6 @@
 A = [0] * 7
 for i in range(7):
-    A[i] = int(input("print number"))
+    A[i] = int(input("введите число"))
 for i in range(7):
     B = ["X"] * A[i]
     if A[i] < 0:
